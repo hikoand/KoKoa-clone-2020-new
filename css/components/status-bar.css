@@ -26,3 +26,12 @@
 .status-bar__column .fa-battery-full {
   margin: 0px 5px;
 }
+
+.status-bar__column .fa-bolt {
+  transition: transform 1s ease-in-out;
+}
+
+.status-bar__column .fa-bolt:hover {
+  color: var(--yellow);
+  transform: rotate(360deg);
+}
